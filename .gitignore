@@ -1,0 +1,31 @@
+﻿# ==========================================
+# 1. Large Raw Datasets (Do Not Track)
+# ==========================================
+# Bellabeat raw cohort data
+Bellabeat_CS2/data/raw/
+Bellabeat_CS2/data/raw/*
+
+# Cyclistic raw monthly trip data
+CyclisticBikeShare_CS1/OriginalData/
+CyclisticBikeShare_CS1/OriginalData/*
+
+# Generic compressed archives
+*.zip
+*.tar.gz
+
+# ==========================================
+# 2. Python & Environment Artifacts
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+__pycache__/
+*.py[cod]
+.env
+venv/
+env/
+
+# ==========================================
+# 3. OS Clutter
+# ==========================================
+Thumbs.db
+.DS_Store
